@@ -16,7 +16,7 @@ body{
 
   background-image:
     /* Layer 1 */
-    radial-gradient(circle at 40px 60px, rgba(109,160,248,.8) 0 18px, transparent 19px),
+    radial-gradient(circle at 40px 60px, rgba(109,160,248,.45) 0 18px, transparent 19px),
     radial-gradient(circle at 180px 120px, rgba(222,243,209,.85) 0 14px, transparent 15px),
     radial-gradient(circle at 260px 40px, rgba(109,160,248,.35) 0 22px, transparent 23px),
 
@@ -25,7 +25,7 @@ body{
     radial-gradient(circle at 310px 150px, rgba(109,160,248,.25) 0 20px, transparent 21px),
 
     /* Layer 3 (another offset) */
-    radial-gradient(circle at 70px 90px, rgba(109,160,248,.9) 0 15px, transparent 16px),
+    radial-gradient(circle at 70px 90px, rgba(109,160,248,.50) 0 15px, transparent 16px),
     radial-gradient(circle at 230px 260px, rgba(222,243,209,.9) 0 18px, transparent 19px);
 
   background-repeat: repeat, repeat, repeat, repeat, repeat, repeat, repeat;
