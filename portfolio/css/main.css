@@ -248,7 +248,23 @@ iframe{
   display: flex;
   justify-content: center;
   gap: 32px;
-  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contact-links p{
+  display: flex;
+  align-items: center;
+  gap: 10px;             /* space between label and link */
+  margin: 0;
+  flex-wrap: wrap;       /* if it must wrap, it wraps nicely */
+  justify-content: center;
+}
+
+.contact-links strong{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;   /* keep “Instagram:” together */
 }
 
 .ig-line{
@@ -270,7 +286,13 @@ iframe{
 }
 
 
-
+@media (max-width: 520px){
+  .contact-links{
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
 
 
 footer{
