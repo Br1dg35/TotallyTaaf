@@ -285,6 +285,25 @@ iframe{
   gap: 6px;
 }
 
+.tt-line{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tt-line strong{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.tt-icon{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
 
 @media (max-width: 520px){
   .contact-links{
